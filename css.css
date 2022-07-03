@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+header{
+    display: flex;
+    background-color:#191923;
+    justify-content: space-between;
+    height: 100px;
+}
+
+main{
+    padding-top: 20vh;
+}
+
+.title_header{
+    color: #FBFFFE;
+    font-family: 'Prompt', sans-serif;
+    margin-left: 100px;
+    margin-top: 23px;
+    font-size: 30px;
+}
+
+.list_header{
+    margin-top: 11px;
+}
+
+ul {
+    
+    font-family: 'Prompt', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-right: 50px;
+    display: flex;
+  }
+  
+  li a {
+    display: flex;
+    color: #FBFFFE;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+  }
+
+  .info{
+    background-color: red;
+    display: flex;
+    width: 60vh;
+  }
+
+.flex-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.flex-item{
+    list-style: none;
+}
+
+.title-main{
+    margin: 0vh 20vh 0vh;
+    font-size: 80px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.subtitle-main{
+    margin: 0vh 20vh 0vh;
+    font-size: 40px;
+    font-family:'Prompt', sans-serif;
+    color: black;
+}
+
+.info-group{
+    margin-top: 13vh;
+}
+
+.logo-main{
+    margin: 0;
+    padding-right: 20vh;
+}
+
+.button-style{
+    list-style: none;
+    margin-left: 100px;
+    display: flex;
+}
+
+.btn-principal:hover{
+    background: #363648;
+}
+
+.button-text{
+    text-decoration: none;
+    color: #FBFFFE;
+    font-family: 'Promp', sans-serif;
+    font-size: 30px;
+}
+
+.icon{
+    font-size: 30px;
+}
+
+.btn{
+display: flex;
+margin-left: 18vh;
+}
+
+.btn-principal{
+    display: flex;
+    margin: 0vh 0vh 20vh;
+    margin-left: 0px 0px 0px;
+    align-items: center;
+    padding: 3px 5px 5px;
+    justify-content: center;
+    width: 400px;
+    border-radius: 15px;
+    background-color: #191923;
+    margin-top: 1rem;
+    transition: background 0.5s ;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    height: 80px;
+    font-family: "Prompt", sans-serif;
+}
+
+.main-li{
+    list-style: none;
+}
+
+.logo-li{
+    margin-right: 20vh;
+    list-style-type: none;
+}
